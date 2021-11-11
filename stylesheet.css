@@ -41,9 +41,10 @@ body{
 .result-selection{
     opacity: .5;
     font-size: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
 }
 
-/*LEFT OFF AT 8:47*/ 
+.result-selection.winner{
+    opacity: 1;
+    font-size: 1.5rem;
+}
